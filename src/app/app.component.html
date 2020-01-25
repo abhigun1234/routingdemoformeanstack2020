@@ -1,0 +1,14 @@
+<!--<app-validation></app-validation>
+<div>
+
+  <select (change)="onChange($event.target.value)" [(ngModel)]= "menudetail" id="">
+
+    <option *ngFor="let menu of menuList">{{menu}}</option>
+  </select>
+</div>-->
+<ul>
+    
+    <li><a [routerLink] = "['/home']">Home</a></li>
+       <li><a [routerLink] = "['/about']">About</a></li>
+ </ul>
+ <router-outlet></router-outlet>  
